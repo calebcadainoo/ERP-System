@@ -1,0 +1,582 @@
+/*utility menu*/
+.app_utility{
+	width: 260px; /*related width*/
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	background: #1A262B;
+	color: #fff;
+}
+
+	/*utils header*/
+.app_utils_header{
+	padding: 12px;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}.header_utils_name{
+	font-family: JosefinSans, sans-serif;
+	margin-bottom: 7px;
+}.header_utils_type{
+	font-size: 0.8em;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: Latolight, sans-serif;
+}
+
+	/*utils user*/
+.app_utils_user{
+	padding-top: 15px;
+	box-sizing: border-box;
+	padding-bottom: 9px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}.user_utils_profile_pic{
+	width: 56px;
+	height: 56px;
+	margin: auto;
+	border-radius: 50%;
+	margin-bottom: 4px;
+	box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.8) inset;
+	background-image: url(../ico/malea.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px;
+}.user_utils_userRank{
+	text-align: center;
+	font-size: 0.8em;
+	margin-bottom: 5px;
+	letter-spacing: 0.5px;
+	font-family: LatoLight, sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+}.user_utils_fullname{
+	text-align: center;
+	font-size: 0.9em;
+	text-transform: capitalize;
+	font-family: LatoLight, sans-serif;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+	/*utils body*/
+.app_utils_body{
+	height: calc(100% - 178px);
+	overflow-y: hidden;
+	padding-top: 15px;
+	box-sizing: border-box;
+	font-size: 0.8em;
+	overflow-x: hidden;
+}
+.ui-parent{
+	position: relative;
+}.ui-scrollbar{
+	/*cursor:n-resize;*/
+	position:absolute;
+	overflow:auto;
+	top:0px;
+	right:0px;
+	z-index:2;
+	background: rgba(255, 255, 255, 0.4);
+	width:10px;
+	border-radius:8px;
+}.ui-scrollable{
+	overflow-y:auto;
+	position:absolute;
+	padding:0 17px 0 0;
+	width: 280px;
+ 	height:100%;
+ 	box-sizing: border-box;
+}
+.body_utils_menu_link{
+	padding: 12px;
+	padding-top: 17px;
+	padding-left: 57px;
+	opacity: 0.8;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+	background-size: 48px;
+	text-transform: capitalize;
+	background-position: left;
+	background-repeat: no-repeat;
+}.body_utils_menu_link:hover{
+	padding-left: 70px;
+	opacity: 1;
+}.menu_account{
+	background-image: url(../ico/menu_accounts.png);
+}.menu_payables{
+	background-image: url(../ico/menu_payables.png);
+}.menu_ledger{
+	background-image: url(../ico/menu_ledger.png);
+}.menu_billing{
+	background-image: url(../ico/menu_billing.png);
+}.menu_stock{
+	background-image: url(../ico/menu_stock.png);
+}.menu_purchase{
+	background-image: url(../ico/menu_purchase.png);
+}.menu_sales{
+	background-image: url(../ico/menu_sales.png);
+}.menu_book{
+	background-image: url(../ico/menu_book.png);
+}.menu_performance{
+	background-image: url(../ico/menu_performance.png);
+}.menu_calendar{
+	background-image: url(../ico/menu_calendar.png);
+}
+
+.body_utils_default_menu{
+	padding-bottom: 11px;
+	margin-bottom: 11px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.utils_menu_tag{
+	font-size: 0.6em;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.3);
+	letter-spacing: 1px;
+}
+
+.app_utility_menu{
+	width: 100%;
+	height: 60px; /*related width*/
+	/*background: #999;*/
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 5px;
+	text-align: center;
+	position: relative;
+	font-family: Lato, sans-serif;
+}.app_utility_menu p{
+	position: relative;
+	top: 45px;
+	margin: auto;
+}
+
+.dashboard{
+	background-image: url(../ico/home.png);
+}.users{
+	background-image: url(../ico/users.png);
+}.male{
+	background-image: url(../ico/male.png);
+}.female{
+	background-image: url(../ico/female.png);
+}.settings{
+	background-image: url(../ico/settings.png);
+}.logout{
+	background-image: url(../ico/logouta.png);
+}
+/*end of utility menu*/
+
+.app_holder{
+	position: fixed;
+	left: 260px;
+	width: calc(100% - 260px); /*related width*/
+	height: 100%;
+	background: #EEF2F5;
+	background-image: url(../ico/gray-floral.png);
+}
+
+/*first nav bar*/
+.app_navbarA{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	box-sizing: border-box;
+}
+
+.app_group_left{
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.company_name{
+	font-family: Nunito, sans-serif;
+	font-weight: bold;
+	margin-bottom: 12px;
+	letter-spacing: 0.5px;
+}.app_type{
+	font-family: LatoLight, sans-serif;
+	font-size: 0.8em;
+	padding-left: 15px;
+	display: table;
+	letter-spacing: 0.5px;
+	box-sizing: border-box;
+}
+
+.app_group_right{
+	position: absolute;
+	right: 7px;
+}.push_down{
+	top: 13px;
+}.app_user_pic{
+	width: 60px;
+	height: 60px;
+	float: left;
+	background-image: url(../ico/malea.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50px;
+}.app_badge_text{
+	float: left;
+	/*margin-left: 14px;*/
+	box-sizing: border-box;
+	padding: 12px;
+	padding-right: 0;
+}.app_hello{
+	font-family: Nunito, sans-serif;
+	font-size: 15px;
+	margin-bottom: 7px;
+	letter-spacing: 0.5px;
+}.app_greeting{
+	font-family: HindVadodara, sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.9em;
+	letter-spacing: 0.5px;
+}.captitalize{
+	text-transform: capitalize;
+}
+/*end of first nav bar*/
+
+/*second nav bar*/
+.app_navbarB{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	position: relative;
+	z-index: 33;
+	border-bottom: 1px solid #f9f9f9;
+	box-sizing: border-box;
+	padding: 10px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app_back_nav, .app_menu_nav{
+	width: 60px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+	background-image: url(../ico/back.png);
+	background-position: center;
+	background-size: 50px;
+	background-repeat: no-repeat;
+}.app_menu_nav{
+	height: 60px;
+	background-image: url(../ico/menu.png);
+	background-position: center;
+	background-size: 50px;
+	background-repeat: no-repeat;
+	display: none;
+}.app_menu_nav:hover{
+	opacity: 0.5;
+}
+
+.app_page_name{
+	font-family: ComfortaaLight, sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+	float: left;
+}
+
+.app_time{
+	font-family: Lato, sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 1.1em;
+	margin-bottom: 7px;
+	text-align: right;
+}.app_date{
+	font-family: HindVadodara, sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.9em;
+	letter-spacing: 0.5px;
+	text-align: right;
+}
+/*end of second nav bar*/
+
+
+/*app workarea*/
+.app_workarea{
+	width: calc(100% - 280px);
+	height: calc(100% - 140px);
+	padding: 10px;
+	position: fixed;
+	overflow-y: auto;
+}
+
+.app_scrollable{
+	width: 100%;
+	/*height: 100%;*/
+}
+.app_worksheet{
+	background: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+.app_notify_count{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	border-radius: 70px;
+	background: #ef0404;
+	font-size: 17px;
+	display: table;
+	font-weight: bold;
+	font-family: LatoB, sans-serif;
+	position: absolute;
+	top: -24px;
+	right: 18px;
+	box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
+}
+
+.app_tab_box{
+	width: 270px;
+	height: 40px;
+	margin: auto;
+	text-align: center;
+}
+
+.app_tab_opt{
+	font-family: Nunito, sans-serif;
+	background: #e3e3e3;
+	border-radius: 40px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.app_tab_opt:nth-child(2){
+	margin-left: 15px;
+}
+
+.tab-selected{
+	color: #fff;
+	background: #14db0d;
+}
+
+.app_grid_fill{
+	height: 160px;
+	text-align: center;
+	font-family: Nunito, sans-serif;
+}
+
+.app_opt_icon{
+	/*height: 180px;*/
+}.app_opt_name{
+	line-height: 1.3em;
+}
+
+/*inner action button*/
+.app_fab{
+	display: table;
+	padding: 12px 30px;
+	padding-left: 50px;
+	margin-left: 20px;
+	background: #0088FF;
+	border-radius: 50px;
+	background-image: url(../ico/create.png);
+	background-size: 50px;
+	color: #f5f5f5;
+	cursor: pointer;
+	background-position: left -7px;
+	background-repeat: no-repeat;
+	box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.7);
+}
+
+.th_main{
+	min-width: 981px;
+	background: #e4e4e4;
+	padding: 12px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-bottom: none;
+	box-sizing: border-box;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.app_table_box{
+	/*width: 1275px;*/
+	/*min-width: 980px;*/
+	overflow: hidden;
+}
+
+.app_table_scrollable{
+	width: 99.95%;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+table {
+	width: 99.95%;
+	min-width: 980px;
+	border-collapse: collapse;
+
+}
+
+table th{
+	padding: 12px 5px;
+	box-sizing: border-box;
+}
+
+table td {
+	padding: 12px 5px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.app_view_btn{
+	color: #f4f4f4;
+	background: #9b0ece;
+	display: table;
+	margin: auto;
+	padding: 7px 14px;
+	border: none;
+	cursor: pointer;
+	font-family: Lato, sans-serif;
+	border-radius: 5px;
+	box-shadow: 0px 5px 12px -6px rgba(0, 0, 0, 0.7);
+}
+
+/*profile page*/
+.app_profile_holder{
+	box-sizing: border-box;
+	padding: 12px;
+}
+.profile_user_pic{
+	width: 247px;
+	height: 247px;
+	background: #EEF2F5;
+	margin: auto;
+	position: relative;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 54px center;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.3) inset;
+}
+
+.app-edit-btn{
+	width: 30px;
+	height: 30px;
+	border-radius: 4px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	background: #8B00FF;
+	background-image: url(../ico/edit.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0px 12px 12px -1px rgba(0, 0, 0, 0.5);
+}
+
+.male-d{
+	background-image: url(../ico/male-d.png);
+}.female-d{
+	background-image: url(../ico/female-d.png);
+}
+
+.grid-txt50{
+	width: 49%;
+	margin-right: 2%;
+}.grid-txt50:nth-child(2){
+	margin-right: 0;
+}
+
+.remove_padding{
+	padding: 0;
+}
+
+.form_btn{
+	width: 50%;
+	background: #333;
+	font-size: 13px;
+	height: 45px;
+	border-radius: 5px;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+}.form_btn:hover{
+	width: 53%;
+	letter-spacing: 2px;
+}
+
+/*users page*/
+.users_grid_fill{
+	height: 390px;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	box-shadow: 0px 3px 12px -6px rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	padding: 20px;
+	padding-top: 30px;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #FE4545;
+}.users_grid_fill:before{
+	content: '';
+	width: 45px;
+	height: 45px;
+	/*background: #FE4545;*/
+	position: absolute;
+	top: 0px;
+	left: -0px;
+	border-left: 1px solid #FE4545;
+	border-top: 1px solid #FE4545;
+}
+
+/*end of app workarea*/
+
+@media screen and (max-width: 799px){
+	.home-base .grid-4{
+		width: 50%;
+	}
+
+	.app_opt_icon a img{
+		height: 100px;
+	}
+
+	.app_grid_fill {
+    	height: 120px;
+    }
+}
+
+@media screen and (max-width: 670px){
+	.app_holder{
+		left: 0px;
+		width: 100%;
+	}
+
+	.app_menu_nav{
+		display: block;
+	}
+
+	.app_workarea{
+		width: 96.7%;
+	}
+
+	.show_menu{
+		left: 260px;
+	}
+}
+
+@media screen and (max-width: 510px){
+	.grid-4{
+		width: 50%;
+	}
+
+	.app_opt_name{
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 300px){
+	body, .app_holder, .app_scrollable{
+		width: 300px;
+	}
+
+}
